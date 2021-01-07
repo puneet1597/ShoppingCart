@@ -1,0 +1,58 @@
+.abc {
+  font-size: 30px;
+}
+
+.total {
+  width: 300px;
+  border: solid 1px #eee;
+  margin-left: 20px;
+  box-shadow: 1px 1px 1px 1px #eee;
+  height: 200px;
+  padding: 20px;
+  position: relative;
+  font-weight: bold;
+  border-bottom: 10;
+}
+
+.itemsCart {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.orderTotal {
+  position: ABSOLUTE;
+  bottom: 0px;
+  width: 305px;
+  background: #eee;
+  display: flex;
+  padding: 10px;
+  right: 16p;
+  margin-left: -20px;
+  justify-content: space-between;
+}
+
+.center {
+  margin: auto;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.minus {
+  vertical-align: top;
+}
+
+.plus {
+  vertical-align: top;
+}
+
+.price {
+  vertical-align: text-top;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-align: center;
+}
